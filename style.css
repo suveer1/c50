@@ -1,18 +1,55 @@
 h1{
     color: orangered;
+    align-self: center;
+    align-content: flex-end;
 }
 
 body{
-    background-color:blue;
+    background-color:rgb(149, 149, 202);
+    flex-wrap: wrap;
 }
 .menu{
     width: 100%;
     background-color: black;
+    text-align: center;
+}
+.all{
+    display: flex;
+    background-color: burlywood;
+    margin: 20px;
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
 }
-.body{
-    justify-content: space-around;
+
+.top,.second,.third,.fourth{
+    background-color: ivory;
+    border-radius: 30px;
+    width: 400px;
+    display :flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+}
+
+img{
+width: 100px;
+height: 100px;
+border: solid;
+align-self: center;
+display: flex;
+align-content: space-around;
+margin-left: 50px;
+}
+pre{
+    
+    text-align: center;
+    width: 200px;
+    
+}
+b{
+    text-decoration-line: underline;
+    align-self: center;
 }
