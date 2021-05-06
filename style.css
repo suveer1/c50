@@ -10,6 +10,7 @@ body{
     background-color: black;
     justify-content: space-around;
     flex-direction: row;
+    align-content: center;
 }
 .body{
     justify-content: space-around;
