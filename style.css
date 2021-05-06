@@ -1,0 +1,19 @@
+h1{
+    color: orangered;
+}
+img{
+   border: solid;
+}
+body{
+    background-color:pink;
+}
+.menu{
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.body{
+    justify-content: space-around;
+    flex-direction: column;
+}
